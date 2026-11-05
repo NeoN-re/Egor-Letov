@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Егор Летов — Гражданская Оборона</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #111;
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+            text-align: center;
+            padding: 80px 20px 60px;
+            border-bottom: 3px solid #8b0000;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 2px 2px 0 #8b0000;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #999;
+            margin-top: 15px;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: #c00;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            border-left: 4px solid #8b0000;
+            padding-left: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+
+        .quote {
+            background-color: #1a1a1a;
+            border-left: 4px solid #8b0000;
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+            color: #bbb;
+            font-size: 1.05rem;
+        }
+
+        .quote::before {
+            content: "«";
+            color: #c00;
+            font-size: 2rem;
+            vertical-align: middle;
+        }
+
+        .quote::after {
+            content: "»";
+            color: #c00;
+            font-size: 2rem;
+            vertical-align: middle;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px 0 10px 25px;
+            position: relative;
+            border-bottom: 1px solid #222;
+        }
+
+        ul li::before {
+            content: "▸";
+            color: #c00;
+            position: absolute;
+            left: 0;
+        }
+
+        .album-list li span {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 1px solid #222;
+            color: #555;
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: #8b0000;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header {
+                padding: 50px 15px 40px;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Егор Летов</h1>
+        <p>1964 — 2008 · Поэт, музыкант, лидер «Гражданской Обороны»</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Кто это</h2>
+            <p>Игорь Фёдорович «Егор» Летов — советский и российский поэт, музыкант, основатель и бессменный лидер панк-рок-группы «Гражданская Оборона». Одна из самых значимых фигур сибирского андеграунда и всего русского рока.</p>
+            <p>Родился в Омске, жил в Тюмени и Омске, записывал альбомы в домашних условиях, став культовым ещё при жизни. Его тексты — смесь отчаяния, протеста и поэзии.</p>
+        </section>
+
+        <div class="quote">
+            Всё идёт по плану — это не про меня. Я иду против течения, и это моё течение.
+        </div>
+
+        <section>
+            <h2>Ключевые альбомы</h2>
+            <ul class="album-list">
+                <li>«Поганая молодёжь» <span>— 1985</span></li>
+                <li>«Мышеловка» <span>— 1987</span></li>
+                <li>«Тоталитаризм» <span>— 1987</span></li>
+                <li>«Русское поле экспериментов» <span>— 1989</span></li>
+                <li>«Здорово и вечно» <span>— 1989</span></li>
+                <li>«Сто лет одиночества» <span>— 1993</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Цитаты</h2>
+            <div class="quote">
+                Всё идёт по плану.
+            </div>
+            <div class="quote">
+                Кто-то должен быть против. Я — против.
+            </div>
+            <div class="quote">
+                Мне нечего сказать, и я это скажу.
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Посвящается памяти Егора Летова · 1964–2008</p>
+        <p style="margin-top: 8px;">«Гражданская Оборона» навсегда</p>
+    </footer>
+
+</body>
+</html>
